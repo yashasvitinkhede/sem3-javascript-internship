@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>animation2</title>
+        <style type="text/css">
+div
+    {
+
+height:150px;
+width: 1500px;
+transition:3s;
+font-size:25px;
+font-weight:bold;
+color:#e60010;
+background-color:rgb(175, 210, 34);
+    }
+#TranslateDiv:hover
+{
+-webkit-transform:translate(100px,100px);
+-moz-transform:translate(100px,100px);
+-ms-transform:translate(100px,100px);
+-o-transform:translate(100px,100px);
+transform:translate(100px,100px);
+background-color:rgb(3, 3, 56);
+color:rgb(163, 163, 13);
+}
+#RotateDiv:hover
+{
+-webkit-transform:rotate(360deg);
+-moz-transform:rotate(360deg);
+-ms-transform:rotate(360deg);
+transform:rotate(360deg);
+background-color:rgb(19, 19, 102);
+color:rgb(142, 142, 16);
+}
+#RotateDiv3D:hover
+{
+-webkit-transform:rotate3d(1,1,0,360deg);
+-moz-transform:rotate3d(1,1,0, 360deg);
+-ms-transform:rotate3d(1,1,0,360deg);
+-o-transform:rotate3d(1,1,0,360deg);
+transform:rotate3d(1,1,0,360deg);
+background-color:rgb(122, 19, 122);
+color:rgb(38, 180, 54);
+}
+#SkewDiv:hover{
+-webkit-transform:skew(45deg);
+-moz-transform:skew(45deg);
+-ms-transform:skew(45deg);
+-o-transform:skew(45deg);
+transform:skew(45deg);
+background-color:rgb(50, 9,128);
+color:rgb(182, 67, 21);
+}
+#ScaleDiv:hover
+{
+-webkit-transform:scale(1.5,0.5);
+-moz-transform:scale(1.5,0.5);
+-ms-transform:scale(1.5,0.5);
+-o-transform:scale(1.5,0.5) ;
+transform:scale(1.5,0.5);
+background-color:rgb(25, 25, 219);
+color:rgb(255, 68, 0);
+}
+#OpacityDiv:hover
+{
+opacity:0.5;
+}
+#RGBADIV:hover
+{
+background:rgba(9, 184, 9, 0.5);
+}
+#BoxShadowDiv:hover{
+box-shadow:0px 0px 30px rgb(88, 88, 127);
+}
+#TextShadowDiv:hover{
+text-shadow:3px 3px 3px rgb(110, 18, 155);
+}
+#BorderRadiusDiv:hover
+{
+border-radius:50%;
+}
+#OverFlowDiv{overflow:auto;}
+
+</style>
+</head>
+<body>
+<b>Translate</b>
+<div id="TranslateDiv">A</div><hr/>
+<b>Rotate</b>
+<div id="RotateDiv">B</div><hr/>
+<b>Rotate</b>
+<div id="RotateDiv3D">c</div><hr/>
+<b>Skew</b>
+<div id="SkewDiv">D</div><hr >
+<b>scale</b>
+<div id="ScaleDiv">E</div><hr/>
+<b>Opacity</b>
+<div id="OpacityDiv">F</div><hr/>
+<b>RGBA</b>
+<div id="RGBADIV">G</div><hr/>
+<b>Box-Shad</b>
+<div id="BoxShadowDiv">H</div><hr/>
+    <b>box-shadow</b>
+<div id="TextShadowDiv">i</div><hr/>
+<b>Border Radius</b>
+<div id="BorderRadiusDiv">J</div><hr>
+<b>Overflow</b>
+<div id="OverFlowDiv">Data Overflow Data Overflow Data Overflow Data Overflow Data Overflow Data Overflow Data Overflow </div><hr/>
+</body>
+</html>
